@@ -23,20 +23,19 @@
 </header>
 
 <section id="slide1">
-    <div class="slide_inside">
-        <a href="https://wolfy.fr/" class="lien_novanum">
-            <img src="../image/wolfy_site.PNG" class="imgbackground"/>
-        </a>
+    <div class="slide_inside slide_inside_banner">
+        <a href="https://wolfy.fr/" class="lien_site"></a>
     </div>
 </section>
     
 <section class="slide2">
     <div class="slide_inside">
-        <div class="back-btn">
-            <a class="btn-back" href="../blog.html">Retour</a>
+        <div>
+            <button class="btn btn-light btn-fill-horz-o" onclick="window.location.href = '../blog.html';" type=button>Retour</button>
         </div>
         
-        <p class="effact">Wolfy : le jeu du loup-garou</p>
+        
+        <p class="effactTile">Wolfy : le jeu du loup-garou</p>
         
         <p class="paragraphe">
             <a class="effect">Q</a>ui ne connaît pas le jeu du loup-garou ? Qui n'a jamais passé une soirée à protéger, à sauver ou à manger d'autres joueurs ? Peu de personnes je le crois. Mais pour ceux qui n'y aurait jamais joué ou qui n'en aurait jamais entendu parler, je vais vous l'expliquer.
@@ -78,52 +77,56 @@
     
     
 <!-- footer -->
-<div id="slide3">
-    <div class="slide_inside">
+<div id="slide4">
+    <div class="slide_inside slide_inside_footer">
         <footer class = "footer">
-            <div class = "footer-information-container">
-                <div class = "info-container">
+            <div class = "footer-information-container container_father">
+                <div class = "info-container paddingFooter">
                     <h3>ME CONNAITRE</h3>
-                    <ul>
-                        <li><a class="lien" href="../about.html">A propos</a></li>
-                        <li><a class="lien" href="#">Compétences</a></li>
-                        <li><a class="lien" href="../showcase.html">Portfolio</a></li>
+                    <ul  class="ulFooter">
+                        <li><a class="lien linkA" href="about.html">A propos</a></li>
+                        <li><a class="lien linkA" href="blog.html">Mon blog</a></li>
+                        <li><a class="lien linkA" href="showcase.html">Mes projets</a></li>
                     </ul>
                 </div>
-                <div class = "navigation-links-container">
+                <div class = "navigation-links-container paddingFooter">
                     <h3>ME CONTACTER</h3>
-                    <a href="../contact.html">CONTACT</a>
+                    <ul class="ulFooter">
+                        <li>
+                            <a href="contact.html" class="linkA">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class = "social-media-container">
+                <div class = "social-media-container paddingFooter">
                     <h3>RESEAUX SOCIAUX</h3>
                     <ul class="ul_reseau">
                         <li>
-                            <a href="#" class="liens_reseaux"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="liens_reseaux linkedinLink"><i class="fab fa-linkedin"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="liens_reseaux"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#" class="liens_reseaux facebookLink"><i class="fab fa-facebook-square"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="liens_reseaux"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="liens_reseaux instagramLink"><i class="fab fa-instagram"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="liens_reseaux"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#" class="liens_reseaux twitterLink"><i class="fab fa-twitter-square"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="liens_reseaux"><i class="fab fa-github-square"></i></a>
+                            <a href="#" class="liens_reseaux gitLink"><i class="fab fa-github-square"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class = "footer-developer-container">
+            <div class = "footer-developer-container" style="">
                 <div class = "footer-developed-by">
                     <p>
-                        Copyright &copy; 2020 All Rights Reserved by <a href="../index.html" class="copyri">LIEUTAUD Céline</a>.
+                        Copyright &copy; 2020 All Rights Reserved by <a href="index.html" class="copyri linkA">LIEUTAUD Céline</a>.
                     </p>
                 </div>
             </div>
         </footer>
     </div>
-</div>
+</div> 
 </body>
 </html>

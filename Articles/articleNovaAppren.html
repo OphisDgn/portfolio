@@ -2,11 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Site personnel - Stage Novanum : Apprentissage </title>
-    <link rel="stylesheet" href="articleNovaSuite.css"/>
+    <title>Site personnel - Stage Novanum : Apprentissage</title>
+    <link rel="stylesheet" href="articleNovAppren.css"/>
     
     <!-- lien pour les icones Font Awesome -->
-    <link rel="stylesheet" href="./fontawesome-free-5.9.0-web/css/all.min.css"/>
+    <link rel="stylesheet" href="../fontawesome-free-5.9.0-web/css/all.min.css"/>
+    
 </head>
 <body>
         <!-- Navigation -->
@@ -23,51 +24,56 @@
 </header>
 
 <div id="slide1">
-    <div class="slide_inside">
-        <a href="https://www.openstreetmap.org/#map=6/46.449/2.210" class="lien_site">
-            <img src="../image/openstreetmap_site.PNG" class="imgbackground"/>
-        </a>
+    <div class="slide_inside slide_inside_banner">
+        <a href="https://www.openstreetmap.org/#map=6/46.449/2.210" class="lien_site"></a>
     </div>
 </div>
 
 <div id="slide2">
     <div class="slide_inside">
-        <div class="back-btn">
-            <a class="btn-back" href="../blog.html">Retour</a>
+        <div>
+            <button class="btn btn-light btn-fill-horz-o" onclick="window.location.href = '../blog.html';" type=button>Retour</button>
         </div>
         
-        <p class="effact">Stage Novanum : découverte</p>
+        <p class="effactTile">Stage Novanum : Apprentissage</p>
         
         <p class="paragraphe">
-            <a class="effect">C</a>omme dit dans le précédent article -sur ce <a href="articleStageNova.html" class="lienSite">lien</a>-, j’ai passé 6 semaines à travailler chez Novanum. Et autant j’ai passé les 4 premières semaines à faire un annuaire de site, j’ai passé les deux dernières semaines de mon stage en faisant du JavaScript. 
+            <a class="effect">P</a>armi mes expériences professionnelles, j'ai réalisé un stage au sein de Novanum. J'avais déjà réalisé un stage plus court au sein de cette entreprise l'an passé, en 2019. J'y avais produit deux projets, un annuaire pour une ville et un système de carte comme Google Maps.
             <br />
             <br />
-            <a class="effect">J</a>’avais pour mission de réaliser une carte, tel Google Maps, afin de pouvoir faire des recherches de lieux -en rentrant soit l’adresse complète, soit une ville ou un pays- mais aussi pour faire des trajets d’un endroit à un autre. En bref, un Google Maps. 
+            <a class="effect">C</a>ette année, le stage sera plus long et les projets plus divers. Cependant avant de commencer tout projet, il faut se former aux technologies utilisées, les re-découvrir pour certaines ou les découvrir pour d'autres. 
             <br />
             <br />
-            <a class="effect">A</a>insi j’ai découvert OpenStreetMap, qui est une carte du monde créée par des gens et libre d’utilisation. Google ayant changé leur grille tarifaire de l’api depuis Juin 2018, cela faisait que son utilisation était payante. Ainsi j’ai utilisé OpenStreetMap, qui utilise une licence gratuite car elle est bâtie par des cartographes bénévoles qui contribuent et maintiennent les données des routes, sentiers et bien plus encore.
+            <a class="effect">J</a>'ai donc commencé mon stage le mercredi 1er Juillet. Suite au confinement et aux risques sanitaires, nous devions avec les autres membres de l'entreprise porter le masque lorsque nous nous déplacions dans la boutique. Cependant l'acceuil reste toujours chaleureux et convivial, malgré des changements dans l'équipe.
             <br />
             <br />
-            <a class="effect">P</a>endant les 2 semaines, j’ai appris à organiser des fonctions en JavaScript et à utiliser Leaflet. Ce dernier étant la principale librairie JavaScript pour les cartes interactives, il était de ce fait normal de l’utiliser. Et me voilà partie pour chercher des fonctionnalités, de l’aide, des techniques et des fonctions pour jouer avec la carte OpenStreetMap.
+            <a class="effect">E</a>nfin cet article n'est pas là pour parler de ça. J'ai donc débuté en installant tous les logiciels demandés et ce malgré la présence de la plupart des logiciels sur l'ordinateur prêté par l'entreprise. Suite à cela nous avons enchaîné sur apprendre les subtilités et les langages d'expressions et d'instructions d'OCS (Online Contribute Service) et d'ITL (Isotools Template Language).
             <br />
             <br />
-            <a class="effect">M</a>on projet étant de réaliser une carte interactive, je devais au départ pouvoir placer des points sur certains endroit d’une carte et pouvoir y faire afficher, sur du click, des informations -et même une photo- afin de pouvoir savoir ce qui était désigné. Ces points étant au nombre de trois : le magasin de Novanum, la Mairie d’Eyguières ainsi que l’Eglise. Pour voir cela, vous pouvez aller sur ce <a href="https://jsfiddle.net/5embzxhs/5/" class="lienSite">JsFiddle</a>.
+            <a class="effect">N</a>ovanum aide d'autres entreprises dans leur transformation numérique grâce à Isotools et au langage ITL, qui présente des fonctionnalités ou des balises simplifiants le code et la compréhension de la page. Cependant les bases sont principalement de l'HTML et du CSS avec quelque fois du JQuery.
             <br />
             <br />
-            <a class="effect">J</a>’avais ensuite la tâche de pouvoir y réaliser des recherches d’un lieu -avec adresse précise ou juste le nom de la ville ou pays- mais aussi des recherches d’itinéraire. Sur le lien JsFiddle que j’ai fourni ici, la dernière fonctionnalité ne marche pas bien car il s’agit là d’une version antérieure à celle qui fonctionne parfaitement. Cependant je n’arrive plus à retrouver le lien afin de vous le montrer.
+            <a class="effect">I</a>l fallait aussi apprendre à utiliser le studio, afin de rajouter des éléments ou du backoffice. Cette dernière partie a été la plus compliquée car je n'y avais jamais touché avant et il y a pleins de subtilités que de prime abord nous ne comprenons pas tellement.
             <br />
             <br />
-            <a class="effect">Q</a>uelques petites erreurs et bugs sont visibles sur cette version, comme par exemple les points qui ne disparaissent pas lors d’une nouvelle recherche et du coup la recherche d’itinéraire. Toutefois j’ai été assez contente de moi lors de la livraison de ces codes car c’était la première fois pour moi que je touchais à du JavaScript de cette manière et pour cette finalité là.
+            <a class="effect">A</a>insi s'est écoulé le mois de juillet, aux rythmes des réunions pour montrer l'avancée des projets et de longues sessions de travails. Concernant mon projet, je devais réaliser une banque de documents sécurisée où les clients pourraient télécharger les documents s'ils le souhaitent. J'ai ainsi joué avec la base de données, j'ai aussi fait du c# afin de gérer les données transmises et d'en modifier certaines après une modification de fiche par exemple.
             <br />
             <br />
-            <a class="effect">U</a>ne petite morale pour moi-même à la fin de cette expérience : le développement web peut offrir beaucoup et faire du JavaScript est vraiment très amusant. Il ne faut pas hésiter à toucher à ça, à essayer et chercher sur internet.
+            <a class="effect">L</a>e mois d'août est arrivé avec les départs en vacances de la plupart des membres de l'entreprise, on s'est retrouvé à 2 pendant une semaine, on a avancé et paufiné les rendus. Cependant lors du passage sur un autre projet et donc de la vérification des codes, le patron a fait ressortir plusieurs erreurs dû à des mauvaises utilisations de certaines fonction ou de nommage parfois.
+            <br />
+            <br />
+            <a class="effect">J</a>'ai dû revenir dessus après avoir commencé un autre projet. Toutefois les remarques que nous avons pu avoir nous force maintenant à être plus pointilleux et à réfléchir aux fonctionnalités plus du point de vue de l'utilisateur que du point de vue du développeur.
+            <br />
+            <br />
+            <a class="effect">L</a>a suite du stage s'est passé tranquillement, avec la découverte de l'envoi d'email lors de la création d'une fiche pour une soumission de candidature à un poste par exemple. Ce point-ci a été particulièrement retors avec nos nerfs mais nous y sommes venu à bout.
+            <br />
+            <br />
+            <a class="effect">M</a>on stage va continuer encore pendant un mois après ce post, ainsi j'aurais de nouvelles missions et de nouvelles connaissances à apprendre.
         </p>
     </div>
 </div>
     
-    
 <!-- footer -->
-   <!-- footer -->
 <div id="slide4">
     <div class="slide_inside slide_inside_footer">
         <footer class = "footer">

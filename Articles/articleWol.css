@@ -129,17 +129,15 @@ body {
     margin: 0;
     text-align: center;
 }
-
-.lien_novanum {
-    height: 100%;
+.slide_inside_banner {
+    background-image: url('../image/wolfy_site.PNG');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 700px;
     width: 100%;
+    text-align: center;
 }
-
-.imgbackground {
-    height: 100%;
-    width: 100%;
-}
-
 /* slide 2 */
 #slide2 {
     background: white;
@@ -149,22 +147,51 @@ body {
 
 
 /* le bouton de retour */
-.back-btn {
-    width: 50px;
-    height: 20px;
-    background: rgba(15, 15, 15, 0.65);
-    margin-left: 25px;
+.btn {
+    display: inline-block;
+    line-height: 35px;
+    margin: 8px;
+    padding: 0 15px;
+    font-size: 15px;
+    position: relative;
+    opacity: .999;
+    border-radius: 3px;
+    cursor: pointer;
 }
-
-.btn-back {
-    color: black;
-    transition: all .3s ease-out;
-    text-decoration: none;
+.btn-fill-horz-o:before, .btn-fill-horz-o:after {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
-
-.btn-back:hover {
-    transition: all .3s ease-out;
-    color: #e0c8ad;
+.btn-fill-horz-o {
+    background-color: transparent;
+    border: 1px solid #d0d0d0;
+    color: #3f3f3f;
+    overflow: hidden;
+}
+.btn-fill-horz-o:before, .btn-fill-horz-o:after {
+    content: '';
+    width: 0;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.btn-fill-horz-o:before {
+    left: 50%;
+}
+.btn-fill-horz-o:after {
+    right: 50%;
+}
+.btn-fill-horz-o:hover {
+    border: 1px solid #ffffff !important;
+}
+.btn-fill-horz-o:hover:before, .btn-fill-horz-o:hover:after {
+    width: 50%;
+    opacity: 1;
+}
+.btn-fill-horz-o.btn-light:before, .btn-fill-horz-o.btn-light:after {
+    background-color: #cccccc;
 }
 
 /* contenu de l'article */
@@ -172,12 +199,13 @@ body {
     padding: 40px;
 }
 
-.effact {
+.effactTile {
     text-decoration: none;
     font-size: 2.2em;
-    color: #e0c8ad;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    color: #d7b48d;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .effect {
@@ -204,28 +232,35 @@ body {
     display: grid; 
     background-color: rgba(50,50,50,1);
     color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer li {
     list-style-type: none; 
     padding: 5px;
 }
-.footer a {
+.linkA {
     text-decoration: none; 
-    color: white; 
+    color: white;
+    transition: all .2s ease-out;
 }
-.footer a:hover {
-     color: #CD9B5C;
+.linkA:hover {
+    color: #CD9B5C;
+    transition: all .2s ease-out;
 }
 .footer h3 {
-    font-weight:300; 
+    font-weight: 100; 
 }
 
 .footer-information-container {
-    display:grid; 
-    grid-template-columns:1fr 1fr 1fr 1fr; 
-    padding-bottom:20px;
-    padding-left: 16%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    padding-bottom: 20px;
+    text-align: center;
+}
+.paddingFooter {
+    padding: 25px;
 }
 .info-container p {
     margin-top:0px; 
@@ -235,15 +270,77 @@ body {
     list-style-type: none; 
     height: 100%;
 }
+.ulFooter {
+    text-align: center;
+}
 
 .ul_reseau {
     display: -webkit-inline-box;
+    padding: 0;
 }
 .liens_reseaux {
     padding: inherit;
+    text-decoration: none; 
+    color: white;
+    transition: all .2s ease-out;
+    font-size: 20px;
+}
+/* les couleurs des icones */
+.linkedinLink:hover {
+    color: #0e76a8;
+    transition: all .2s ease-out;
+    font-size: 23px;
+}
+.facebookLink:hover {
+    color: #3b5998;
+    transition: all .2s ease-out;
+    font-size: 23px;
+}
+.instagramLink:hover {
+    color: #8a3ab9;
+    transition: all .2s ease-out;
+    font-size: 23px;
+}
+.twitterLink:hover {
+    color: #00acee;
+    transition: all .2s ease-out;
+    font-size: 23px;
+}
+.gitLink:hover {
+    color: #676666;
+    transition: all .2s ease-out;
+    font-size: 23px;
 }
 
 .footer-developer-container {
     text-align: center; 
+    font-size: 12px;
 }
 
+@media screen and (max-width: 600px) {
+    .paddingLeftDesktop {
+        padding: 0;
+    }
+    .wordEspace {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+        line-height: 30px;
+    }
+    .footer-information-container {
+        padding-left: 0;
+        display: block;
+    }
+    .container_father {
+        font-size: 15px;
+    }
+    .container_father h3 {
+        font-size: 20px;
+    }
+    .paddingFooter {
+        padding: 5px;
+    }
+    .footer-developer-container {
+        font-size: 11px;
+    }
+}
