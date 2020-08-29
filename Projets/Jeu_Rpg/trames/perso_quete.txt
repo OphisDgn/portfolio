@@ -1,0 +1,27 @@
+				LES PERSONNAGES
+			(mettre des photos du coup)
+
+== Déesse suprême : Kyuma
+== boss final : Le Voleur de Mort
+== autre boss final : Le Monstre du Lac
+== boss intermédiaire (responsable des morts) : X'rphan The White Wyrn
+== Criminel : Kuradeel
+== Forgeron : Welf 
+== Supporter : Lili
+== Guilde qui demande de l'aide : Les phoenix d'argent
+== Juges : Familia Thémis, avec Hitomi en juge principale
+== 
+
+
+
+				LES QUETES
+			
+
+== 1 == ' Arrivée dans la Familia ' (nous fait lvl 3)
+== 2 == ' La contre-attaque des Vaches ' (nous fait lvl 4)
+
+== 3 == ' Quête de récupération de Karma ' ==> quand on suis le criminel, afin de redevenir curseur vert
+
+== 4 == ' Quête du Dragon de Glace ' ==> quête qui mène à la mort contre le boss intermédiaire (lorsque le joueur perd contre mini boss)
+== 5 == ' Quête du Monstre du Lac ' ==> conduit au boss final et à secourir la guilde, qui finit par la réalisation de la quête : ' La vengeance du Voleur ' (détruire le boss Vol de Mort)
+

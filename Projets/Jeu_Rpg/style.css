@@ -1,0 +1,167 @@
+body {
+    height: 100%;
+    width: auto;
+    background: #e0c8ad;
+    overflow: hidden;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+/* le menu pour démarrer une partie */
+nav, .menuDeux {
+    height: 25%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#btnJouer, #btnOptions {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    background: #e0c8ad;
+    padding: 5px 10px;
+    transition: all .5s ease-out;
+}
+
+#btnJouer:hover, #btnOptions:hover {
+    transition: all .5s ease-out;
+    box-shadow: 0px 0px 4px white;
+    border-radius: 45%;
+    background: #e0c8ad;
+}
+
+input {
+    padding: 10px 10px;
+    margin-top: 2px;
+    border: none;
+    background: white;
+    transition: all .5s ease-out;
+}
+
+input:hover, input:active {
+    box-shadow: 0px 0px 4px white;
+    border-radius: 45%;
+    transition: all .5s ease-out;
+}
+
+
+#play, #inf {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 7px 9px;
+    margin-top: 6px;
+    border: none;
+    background: #e0c8ad;
+    transition: all .5s ease-out;
+}
+
+#play:hover, #inf:hover {
+    box-shadow: 0px 0px 4px white;
+    border-radius: 45%;
+    transition: all .5s ease-out;
+}
+#inf {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+/* la section où le texte va apparaitre */
+.conta {
+    display: grid;
+    grid-template-columns: 700px 1fr;
+}
+
+.history {
+    padding-top: 5%;
+    min-height: 85%;
+    max-height: 85%;
+    min-width: 50%;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: black;
+    grid-column: 1;
+}
+
+.italique {
+    font-style: italic;
+}
+
+/* la section où les photos vont s'ajouter */
+.can {
+    max-width: 100%;
+    min-height: 40%;
+    padding-left: 15px;
+    padding-right: 20px;
+    grid-column: 2;
+    align-items: center;
+    padding-top: 50px;
+}
+
+/* pour les boutons de choix */
+#lesBoutons {
+    align-items: center;
+}
+
+#btn1, #btn2, #btn3 {
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px; 
+    position: relative;
+    text-decoration: none;
+    width: 100%; 
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.monImage {
+    max-height: 600px;
+    max-width: 600px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.mesImages {
+    max-height: 200px;
+    max-width: 200px;
+    margin-left: 5%;
+}
+
+
+
+/* les class que l'on rajoute */
+.active{
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transition: all .3s ease-out;
+    opacity: 1;
+    z-index: 10;
+    display: inline-block;
+}
+
+.negative {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+

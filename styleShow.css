@@ -126,86 +126,119 @@ body {
   color: black;
 }
 
-hr {
-    background-color: black;
-    width: 400px;
-}
-
-h3 {
-    font-size: 1.17em !important;
-}
-
-@media screen and (min-width: 48em) {
-    hr {
-        background-color: black;
-        width: 1000px;
-    }
-}
-
-/* section A  */
-#section-a {
-    background-image: #e0c8ad;
+/* toutes les slides */
+#slide1, #slide3, #slide5, #slide7 {
+    /*min-height: 800px;*/
+    background-image: url('image/backgroundPortfolio.jpg');
+	background-size: cover;
     background-repeat: no-repeat;
-    color: black;
-    height: 450px;
-}
-.content-wrap {
-    padding-top: 200px;
+    background-attachment: fixed;
+    height: 800px;
+    width: 100%;
     text-align: center;
 }
-/* fin section A */
-
-/* section B */
-#liste {
-    padding-right: 45px;
-    padding-bottom: 20px;
-    overflow: hidden;
+#slide3, #slide5, #slide7 {
+    height: 400px;
 }
-.card {
-    background-color: #e0c8ad;
+#slide2, #slide4, #slide6, #slide8 {
+    background: white;
+    height: auto;
+    color: black;
+    text-align: center;
+}
+.slide_inside {
+    width: 100%;
+}
+
+
+/* premiere slide */
+.slide_inside_intro {
+    width: 100%;
+    padding-top: 350px;
+}
+.text-intro {
+    background: white;
+    opacity: 0.9;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+/* */
+
+/* les images */
+
+.paddingLeftDesktop {
+    padding-left: 115px;
+}
+.backgroungImg {
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 155px;
+}
+.wordEspace {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
 }
 .card-text {
-    background-color: #e0c8ad;
-    border: none;
-    float: right;
-    text-align: justify;
+    line-height: 30px;
 }
-#projet {
-    width: 20%;
-    float: left;
-    margin: 5%;
-    opacity: 0.8;
-    transition: 200ms;
-    width: 100px;
-    height: 100px;
+
+
+/* le bouton d'essai */
+.btn {
+    display: inline-block;
+    line-height: 35px;
+    margin: 8px;
+    padding: 0 15px;
+    font-size: 15px;
+    position: relative;
+    opacity: .999;
+    border-radius: 3px;
+    cursor: pointer;
 }
-#paragraphe {
-    text-align: center;
-    padding-top: 30px;
+.btn-fill-horz-o:before, .btn-fill-horz-o:after {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
-@media screen and (min-width: 48em) {
-    #projet {
-        width: 15%;
-        float: left;
-        margin: 5%;
-        width: 200px;
-        height: 200px;
-    }
-    #projet:hover {
-        opacity: 1;
-        box-shadow: 0px 0px 10px black;
-        transform: scale(1.1);
-    }
-    .card-text {
-        background-color: #e0c8ad;
-        margin-bottom: 20px;
-        text-align: justify;
-    }
+.btn-fill-horz-o {
+    background-color: transparent;
+    border: 1px solid #d0d0d0;
+    color: #3f3f3f;
+    overflow: hidden;
 }
-/* fin section B */
+.btn-fill-horz-o:before, .btn-fill-horz-o:after {
+    content: '';
+    width: 0;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.btn-fill-horz-o:before {
+    left: 50%;
+}
+.btn-fill-horz-o:after {
+    right: 50%;
+}
+.btn-fill-horz-o:hover {
+    border: 1px solid #ffffff !important;
+}
+.btn-fill-horz-o:hover:before, .btn-fill-horz-o:hover:after {
+    width: 50%;
+    opacity: 1;
+}
+.btn-fill-horz-o.btn-light:before, .btn-fill-horz-o.btn-light:after {
+    background-color: #cccccc;
+}
+
 
 /* partie footer */
-#slide4 {
+#slide10 {
     margin: 0;
     width: 100%;
     bottom: 0;

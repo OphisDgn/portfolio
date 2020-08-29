@@ -4,12 +4,8 @@
     <title>Site personnel - Projets</title>
     <link rel="stylesheet" href="styleShow.css">
     
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    
-        
+    <!-- lien pour les icones Font Awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.9.0-web/css/all.min.css"/>        
 </head>
 <body>
 	       <!-- Navigation -->    
@@ -25,50 +21,103 @@
   </ul>
 </header>
     
-<!-- Section A -->
-<section id="section-a" class="grid">
-    <div class="content-wrap">
-        <h2 class="content-tile">Mes projets</h2>
-        <hr>
-        <p>Voici un résumé de projets réalisés au cours de mes études et de mes stages. De nouveaux projets s'ajouteront à ceux déjà présent.</p>
+
+<!-- Slide 1 -->
+<div id="slide1">
+    <div class="slide_inside slide_inside_intro">
+        <div class="text-intro">
+            <h2>Mes projets</h2>
+            <p>Voici un résumé de projets réalisés au cours de mes études.</p>
+        </div>
     </div>
-</section>
+</div>
 
-<!-- Section B -->
-<section id="section-b">
-    <ul class="grid">
-        <li id="liste">
-            <div class="card">
-                <div class="card-text">
-                    <img src="image/motmele.jpg" alt="projet 1" id="projet">
-                    <h3 class="card-title">Projet de langage C</h3>
-                    <p id="paragraphe">Petit projet de 2 mois afin de réaliser un mot mêlé</p>
+<div id="slide2">
+    <div class="slide_inside slide_inside_informations">
+        <div class="card">
+            <div class="card-text">
+                <h3>Projet de langage C</h3>
+                <div class="paddingLeftDesktop">
+                    <div class="backgroungImg" style="background-image: url('image/langac.png');"></div>
+                    <p class="wordEspace">Petit projet de 2 mois afin de réaliser un mot mêlé.</p>
                 </div>
             </div>
-        </li>
-        <li id="liste">
-            <div class="card">
-                <div class="card-text">
-                    <img src="image/python.png" alt="projet 1" id="projet">
-                    <h3 class="card-title">Projet de Python</h3>
-                    <p id="paragraphe">Petit projet de 1 mois visant à faire des petits jeux</p>
-                </div>
-            </div>
-        </li>
-        <li id="liste">
-            <div class="card">
-                <div class="card-text">
-                    <img src="image/coming.jpg" alt="projet 1" id="projet">
-                    <h3 class="card-title">Projet à venir</h3>
-                    <p id="paragraphe">A venir</p>
-                </div>
-            </div>
-        </li>
-    </ul>
-</section>    
-
-   <!-- footer -->
+        </div>
+    </div>
+</div>
+    
+<div id="slide3">
+    <div class="slide_inside"></div>
+</div>  
+    
 <div id="slide4">
+    <div class="slide_inside slide_inside_informations">
+        <div class="card">
+            <div class="card-text">
+                <h3 class="card-title">Projet de Python</h3>
+                <div class="paddingLeftDesktop">
+                    <div class="backgroungImg" style="background-image: url('image/python.png');"></div>
+                    <p class="wordEspace">Petit projet de 1 mois visant à faire des petits jeux.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+    
+<div id="slide5">
+    <div class="slide_inside"></div>
+</div> 
+    
+<div id="slide6">
+    <div class="slide_inside slide_inside_informations">
+        <div class="card">
+            <div class="card-text">
+                <h3 class="card-title">Projet de Javascript</h3>
+                <div class="paddingLeftDesktop">
+                    <div class="backgroungImg" style="background-image: url('image/javascript.png');"></div>
+                    <p class="wordEspace">Petit projet visant à réaliser un RPG textuel. Vous pouvez le tester en cliquant sur le lien ci-dessous.</p>
+                    
+                    <div>
+                        <button class="btn btn-light btn-fill-horz-o" onclick="window.location.href = 'Projets/Jeu_Rpg/index.html';" type=button>Jouer au jeu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+    
+<div id="slide7">
+    <div class="slide_inside"></div>
+</div>    
+    
+<div id="slide8">
+    <div class="slide_inside slide_inside_informations">
+        <div class="card">
+            <div class="card-text">
+                <h3 class="card-title">Projet d'IOT</h3>
+                <div class="paddingLeftDesktop">
+                    <div class="backgroungImg" style="background-image: url('image/iot.png');"></div>
+                    <p class="wordEspace">Suite au coronavirus, nous étions confiné chez nous lors des cours. Ainsi pour le projet annuel d'IOT, nous devions réaliser par groupe une application ou tout du moins, les fonctionnalités présentes dessus, pour répertorier et enregistrer les personnes avec leurs états de santé. Une véritable application existe déjà, elle a servi à inspirer notre projet.</p>
+                    
+                    <div>
+                        <button class="btn btn-light btn-fill-horz-o" onclick="window.location.href = 'https://www.gouvernement.fr/info-coronavirus/stopcovid#:~:text=StopCovid%20est%20une%20application%20qui,rompre%20les%20cha%C3%AEnes%20de%20transmission.';" type=button>La vrai application</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-light btn-fill-horz-o" onclick="window.location.href = 'https://spark.adobe.com/page/59LIBiOgS1A5S/';" type=button>Notre projet</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<div id="slide7">
+    <div class="slide_inside"></div>
+</div>    
+    
+   <!-- footer -->
+<div id="slide10">
     <div class="slide_inside slide_inside_footer">
         <footer class = "footer">
             <div class = "footer-information-container container_father">

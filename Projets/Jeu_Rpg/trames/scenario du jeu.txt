@@ -1,0 +1,86 @@
+(les compétences sont basées sur celles des saisons de SAO)
+
+projet js :
+== un personnage (choisir son nom au début)
+- nom, points de vie (30 de base), xp (0), niveau (1), competences, pt compétence (magie ou épée ou un mélange des deux soit égie), points de resistance (0 à chaque), 
+- plusieurs capacités possibles : 
+	-> épée  = Double Lame
+	-> magie = Etournet  (prend un familier au bout d'un moment)
+	-> épée/magie = Lame Mystique
+- départ lvl 1
+- inventaire de base : vide 
+
+
+== boss final : Le Voleur de Mort
+- nom (Le voleur de mort), point de vie (150), point de resistance (dépend du choix au debut du joueur), niveau (10), compétences
+- compétences :
+	-> arme massue = Poids Fort
+	-> magie = Death Arrow (flèches de mort)
+	-> 
+- inventaire : tropheeFini, 500xp
+
+== histoire :
+Vous venez d'arriver dans un jeu rpg, le nouveau jeu sorti. Tout d'abord, après le choix du nom du perso, le MDJ nous parle, nous raconte un peu l'histoire du jeu. Puis il nous dit que l'on peut choisir entre épée ou magie ou les deux comme capacités, que chacune a une attaque unique. Après ce choix, nous avons donc en arme soit une épée à une main soit un spectre soit (si on a choisi épée/magie) dague. 
+Si on choisie magie, on a la possibilité, à un embranchement d'avoir un familier.
+
+
+
+
+== chemin :
+(aucun embranchement pour cette partie)
+- au début, choix de la spé et des armes 
+- premier combat : mob => Skrull (pts vie = 15, pts resistance = 5, nom (Skrull), donne 50xp pour monter Lvl2, compétence : Croc, Charge) !!choix unique!!
+- choix de prendre un familier (embranchement, si familier pris => +20xp(monter Lvl3)+compétence unique = Action Commune ) (si pas pris => joueur lvl2 et il continue son chemin tranquillement sans avoir la compétence unique)
+- les deux choix rejoignent un meme chemin, 
+
+
+
+-> Après le choix de la spécialisation, on peut choisir d'intégrer une Familia (Hestia (+30ptv), Loki (+30ptcompétence magie), Arès (+30ptcompétence épée), Hephaïstos (+30ptcompétence égie)).
+
+-> Suite au choix d'intégrer une Famillia, on a soit Bell, Aiz, Chigusa, Tsubaki avec nous, ils nous emmenent faire un combat juste au dehors de la ville. (on monte lvl2 +10ptv + 5ptresistance)
+
+-> après le premier combat, aller à la guilde et choisir la première quête possible (soit '' Arrivée dans la Familia '' ), qui consiste à attirer 10clients dans la boutique des forgerons d'Hephaïstos. Choix =
+		==> porter la tenue rouge  => +10clients => fin de la quête, retour à la guilde (+10xp)
+		==> ne pas la porter  => +0clients  => continuer à travailler toute la journée => (+fatigue = true, donc on perd la moitié des xp que l'on aurait du gagner pour le prochain combat) => fin de la quête, retour à la guilde (donc +10xp)
+
+-> à la guilde, on récupère la prochaine quête (soit '' Départ dans le donjon '') ou on va se balader dans la ville
+	
+		==> prendre la quete => aller faire un combat dans le donjon => +20xp si y a pas fatigue=true sinon c'est +10xp et cadeau +=cape (+10resistance) : 
+			
+			==> rentrer => croiser route de Eina (notre responsable à la guilde) qui a un problème avec un voleur (veut voler la nouvelle armure faite par Tsubaki pour Ryû, l'elfe rouge) : 
+
+					==> la laisser se faire voler  => +méchanceté = true donc on gagne plus aucun loot après pour tout les combats ==> rentrer chez la familia
+
+					==> l'aider et arreter le voleur => gagner armure (+30ptv, +20ptresistance +gentillesse=true donc possibilité de gagner du loot après) => 
+
+	
+					
+			==> prendre une autre quête => 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
