@@ -141,7 +141,7 @@ a:focus {
 /* fin general */
 
 /* toutes les slides */
-#slide1 {
+#slide1, #slide3 , #slide5, #slide7, #slide9 {
     /*min-height: 800px;*/
     background-image: url('image/backgroundPortfolio.jpg');
 	background-size: cover;
@@ -151,22 +151,17 @@ a:focus {
     width: 100%;
     text-align: center;
 }
-#slide3 , #slide5 {
+#slide3 , #slide5, #slide7, #slide9 {
     background-image: url('image/skills.jpg');
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 800px;
-    width: 100%;
-    text-align: center;
+    height: 400px;
 }
-#slide2, #slide4 {
+#slide2, #slide4, #slide6, #slide8 {
     background: white;
     height: 100%;
     color: black;
     text-align: center;
 }
-#slide6 {
+#slide10 {
     margin: 0;
     width: 100%;
     bottom: 0;
@@ -199,7 +194,7 @@ a:focus {
 
 /* Skills Section */
 #skills {
-    padding: 100px 100px 100px 100px;
+    padding: 25px 100px 25px 100px;
 }
 .eight_columns {
     text-align: left;

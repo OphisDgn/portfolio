@@ -167,7 +167,6 @@ body {
 /* */
 
 /* les images */
-
 .paddingLeftDesktop {
     padding-left: 115px;
 }
@@ -187,8 +186,27 @@ body {
     line-height: 30px;
 }
 
+.progressBarContainerSeparator {
+    width: 100%;
+    height: 5px;
+    background: #cfcfcf;
+    overflow: hidden;
+    font-size: 12px;
+}
+.progessBarValueSeparator {
+    height: 5px;
+    float: left;
+    background: #556270;
+    background: -webkit-linear-gradient(to left, #cc6699, #ccccff);
+    background: linear-gradient(to left, #cc6699, #ccccff);
+}
+.value-100 {
+    width: 100%;
+    text-align: right;
+    color: white;
+}
 
-/* le bouton d'essai */
+/* les boutons */
 .btn {
     display: inline-block;
     line-height: 35px;

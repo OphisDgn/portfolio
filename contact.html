@@ -35,24 +35,25 @@
 <div id="slide2">
     <div class="slide_inside slide_inside_contact">
         <div class="formContact">
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <p>
-                    <label for="lastName">Votre nom :</label>
-                    <input type="text" id="name" placeholder="Entrez votre nom">
+            <form id="form" method="post" href="self">
+                <p class="listMarginBottom">
+                    <label for="lastName" style="vertical-align: middle;">Votre nom :</label>
+                    <input type="text" id="lastName" placeholder="Entrez votre nom">
                 </p>
-                <p>
+                <p class="listMarginBottom">
                     <label for="email">Votre email :</label>
                     <input type="email" id="email" placeholder="contact@example.com">
                 </p>
+                <p class="listMarginBottom">
                     <label for="message" id="how">Comment puis-je vous aider ?</label>
-                <p>
+                </p>
+                <p class="listMarginBottom">
                     <textarea id="message" rows="9"></textarea>
                 </p>
-                <button type="submit" class="btn btn-light" id="submit">Envoyer</button>
+                <div>
+                    <button class="btn btn-light btn-fill-horz-o" onclick="window.location.href = 'contact.html';" type="button">Envoyer</button>
+                </div>
             </form>
-        </div>
-        <div class="coord">
-            <h3>Mes coordonnées</h3>
         </div>
     </div>
 </div>
@@ -60,9 +61,33 @@
 <div id="slide3">
     <div class="slide_inside"></div>
 </div>
+
+<div id="slide4">
+    <div class="slide_inside slide_inside_contact">
+        <div class="progressBar">
+            <div class="progressBarContainerSeparator">
+                <div class="progessBarValueSeparator value-100"></div>
+            </div>
+        </div>
+        <div class="coord">
+            <h3>Mes coordonnées</h3>
+            <br/>
+            <p class="addressMailMobile">celine.lieutaud@ynov.com <i class="fas fa-envelope-open" style="margin-left: 20px;"></i> <i class="fas fa-envelope" style="vertical-align: bottom;"></i> <i class="fas fa-envelope-open" style="margin-right: 20px;"></i> celine.lieutaud@novanum.fr</p>
+            <div class="progressBar">
+                <div class="progressBarContainerSeparator">
+                    <div class="progessBarValueSeparator value-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+<div id="slide5">
+    <div class="slide_inside"></div>
+</div>
     
    <!-- footer -->
-<div id="slide4">
+<div id="slide6">
     <div class="slide_inside slide_inside_footer">
         <footer class = "footer">
             <div class = "footer-information-container container_father">
@@ -86,19 +111,19 @@
                     <h3>RESEAUX SOCIAUX</h3>
                     <ul class="ul_reseau">
                         <li>
-                            <a href="#" class="liens_reseaux linkedinLink"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/c%C3%A9line-lieutaud-b7804b171/" class="liens_reseaux linkedinLink"><i class="fab fa-linkedin"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="liens_reseaux facebookLink"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.facebook.com/celine.lieutaud/" class="liens_reseaux facebookLink"><i class="fab fa-facebook-square"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="liens_reseaux instagramLink"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/kitsuvii_/" class="liens_reseaux instagramLink"><i class="fab fa-instagram"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="liens_reseaux twitterLink"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://twitter.com/Celine_Ltd" class="liens_reseaux twitterLink"><i class="fab fa-twitter-square"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="liens_reseaux gitLink"><i class="fab fa-github-square"></i></a>
+                            <a href="https://github.com/OphisDgn" class="liens_reseaux gitLink"><i class="fab fa-github-square"></i></a>
                         </li>
                     </ul>
                 </div>
